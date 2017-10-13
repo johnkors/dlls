@@ -1,1 +1,1 @@
-dotnet source\commission.sln
+dotnet "./source/commission.sln"
