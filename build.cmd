@@ -1,1 +1,1 @@
-dotnet build "./source/commission.sln"
+dotnet build "./source/dlls.sln"
