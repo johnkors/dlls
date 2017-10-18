@@ -4,17 +4,9 @@ echo Build multiple console apps referencing:
 cat source/classlib.netstandard/classlib.netstandard.csproj
 echo ************************************
 
-
-
 echo ************************************
 echo Console apps using the new SDK:
 cat source/console.new/console.new.csproj
-
-echo ************************************
-
-echo ************************************
-echo Console app using packages.config/ oldstyle csproj:
-cat source/console.fullframework.old/console.fullframework.old.csproj
 echo ************************************
 
 dotnet build "./source/dlls.sln" 
