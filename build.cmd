@@ -1,5 +1,12 @@
 echo off
-dotnet build "./source/dlls.sln" /fl /flp:logfile=MyProjectOutput.log;verbosity=diagnostic  
+echo ************************************
+echo Build console apps referencing:
+cat source/classlib.netstandard/classlib.netstandard.csproj
+echo ************************************
+
+dotnet build "./source/dlls.sln" 
+
+
 
 
 echo *************
