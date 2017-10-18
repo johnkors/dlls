@@ -1,5 +1,5 @@
 echo off
-dotnet build "./source/dlls.sln" /v:detailed
+dotnet build "./source/dlls.sln" /fl /flp:logfile=MyProjectOutput.log;verbosity=diagnostic  
 
 
 echo *************
