@@ -43,7 +43,13 @@ ls source/console.new/bin/debug/netcoreapp2.0/*.dll | grep dll
 
 echo  
 echo *************
-echo Full framework project, old csproj style:
+echo 461 Full framework project , old csproj style:
 echo *************
-ls source/console.fullframework.old/bin/debug/*.dll | grep dll
+ls source/console.fullframework.old.461/bin/debug/*.dll | grep dll
+
+echo  
+echo *************
+echo 471 Full framework project , old csproj style:
+echo *************
+ls source/console.fullframework.old.471/bin/debug/*.dll | grep dll
 
