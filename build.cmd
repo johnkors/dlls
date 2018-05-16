@@ -27,16 +27,6 @@ echo *************
 ls source/console.sdk/bin/debug/net471/*.dll | grep dll
 
 echo *************
-echo NetCoreApp1.0, new SDK style csproj :
-echo *************
-ls source/console.sdk/bin/debug/netcoreapp1.0/*.dll | grep dll
-
-echo *************
-echo NetCoreApp1.1, new SDK style csproj :
-echo *************
-ls source/console.sdk/bin/debug/netcoreapp1.1/*.dll | grep dll
-
-echo *************
 echo NetCoreApp2.0, new SDK style csproj :
 echo *************
 ls source/console.sdk/bin/debug/netcoreapp2.0/*.dll | grep dll
