@@ -6,7 +6,7 @@ namespace console.fullframework.old
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello console.fullframework.old.471!");
+            Console.WriteLine("Hello console.fullframework.old.461.BuildTools12!");
         }
     }
 }

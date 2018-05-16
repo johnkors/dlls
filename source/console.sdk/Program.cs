@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace console.nju
+namespace console.sdk
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Hello console.new!");
         }
     }
 }

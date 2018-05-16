@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace console.fullframework.old
 {
@@ -10,6 +6,7 @@ namespace console.fullframework.old
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello console.fullframework.old.461.BuildTools15!");
         }
     }
 }

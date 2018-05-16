@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace classlib.netstandard
+﻿namespace classlib.netstandard
 {
     public class Class1
     {
