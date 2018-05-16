@@ -1,4 +1,5 @@
 ﻿using System;
+using classlib.netstandard;
 
 namespace console.sdk
 {
@@ -7,6 +8,8 @@ namespace console.sdk
         static void Main(string[] args)
         {
             Console.WriteLine("Hello console.new!");
+            Console.Write(Class1.GetStuff());
+
         }
     }
 }

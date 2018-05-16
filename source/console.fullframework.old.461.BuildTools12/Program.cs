@@ -1,4 +1,5 @@
 ﻿using System;
+using classlib.netstandard;
 
 namespace console.fullframework.old
 {
@@ -7,6 +8,7 @@ namespace console.fullframework.old
         static void Main(string[] args)
         {
             Console.WriteLine("Hello console.fullframework.old.461.BuildTools12!");
+            Console.Write(Class1.GetStuff());
         }
     }
 }
