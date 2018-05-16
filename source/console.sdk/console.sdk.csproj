@@ -1,6 +1,10 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="3.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\classlib.netstandard\classlib.netstandard.csproj" />
   </ItemGroup>
 
