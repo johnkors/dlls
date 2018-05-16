@@ -48,5 +48,5 @@ echo
 echo *************
 echo 471 Full framework project , old csproj style:
 echo *************
-ls source/console.fullframework.old.471.BuildTools12/bin/debug/*.dll | grep dll
+ls source/console.fullframework.old.471/bin/debug/*.dll | grep dll
 
